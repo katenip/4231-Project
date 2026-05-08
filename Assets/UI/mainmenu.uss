@@ -1,0 +1,43 @@
+.panel {
+    opacity: 1;
+    background-color: rgba(45, 249, 232, 0.41);
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+    flex-grow: 0;
+    width: auto;
+    align-items: stretch;
+}
+
+.unity-button {
+    scale: 1 1;
+    flex-grow: 1;
+    align-content: auto;
+    align-items: stretch;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    flex-shrink: 1;
+    min-width: auto;
+    min-height: auto;
+    -unity-slice-type: sliced;
+    font-size: 36px;
+    justify-content: center;
+    -unity-background-scale-mode: stretch-to-fill;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.unity-button:hover {
+    background-color: rgb(0, 255, 17);
+    scale: 1.1 1.1;
+}
